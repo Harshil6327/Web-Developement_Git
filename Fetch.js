@@ -3,10 +3,6 @@ function fetchUserData(){
     .then(response => response.json()) 
     .then(data => bindData(data)) 
 
-    let a = 1234
-    console.log(`Hello ${a}`)
-    
-
 }
 
 function bindData(users){
